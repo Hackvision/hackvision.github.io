@@ -622,3 +622,16 @@ input[type="range"] {
 .reward{
   font-size: 24px;
 }
+
+.locale-title{
+  color: #9124f3;
+  font-size: 48px;
+  /* font-weight: 700; */
+  margin-bottom: 50px;
+  font-family: 'Gotham-Book';
+}
+@media (max-width: 991px) {
+  .locale-title{
+    margin-bottom: 20px;
+  }
+}

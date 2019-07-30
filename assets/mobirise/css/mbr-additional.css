@@ -1839,8 +1839,8 @@ body {
 }
 .cid-rv01crIyHs {
   background: #ffffff;
-  padding-top: 60px;
-  padding-bottom: 45px;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 .cid-rv01crIyHs .image-block {
   margin: auto;
@@ -2273,9 +2273,10 @@ body {
 }
 .cid-ruYxeM1VqS .main_wrapper {
   position: relative;
-  height: 37rem;
+  padding-top: 100px;
+  padding-bottom: 100px;
   width: 100%;
-  background-color: #c0c0c0;
+  background-color: #ffffff;
 }
 .cid-ruYxeM1VqS .main_wrapper .b_wrapper {
   height: 100%;
@@ -2286,9 +2287,30 @@ body {
   pointer-events: none;
 }
 .cid-ruYxeM1VqS .main_wrapper .b_wrapper .block {
-  height: 300px;
+  height: 450px;
   background-color: #ffffff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   pointer-events: fill;
+  position: relative;
+  padding: 320px 50px 20px;
+}
+@media (max-width: 991px) {
+  .cid-ruYxeM1VqS .main_wrapper .b_wrapper .block {
+    padding: 180px 30px 20px;
+    height: 350px;
+    max-width: 300px;
+    margin: 25px auto;
+  }
+}
+.cid-ruYxeM1VqS .main_wrapper .b_wrapper .tech-park{
+  background-image: url("../../images/techpark-photo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.cid-ruYxeM1VqS .main_wrapper .b_wrapper .hospital{
+  background-image: url("../../images/hospital-photo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .cid-ruYxeM1VqS .main_wrapper .b_wrapper .block .block_wrapper {
   display: flex;
