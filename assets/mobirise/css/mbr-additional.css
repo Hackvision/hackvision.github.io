@@ -45,7 +45,7 @@ body {
   font-size: 2.08rem;
 }
 .display-7 {
-  font-family: 'Inconsolata', monospace;;
+  font-family: 'Inconsolata', monospace;
   font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
@@ -1839,7 +1839,7 @@ body {
 }
 .cid-rv01crIyHs {
   background: #ffffff;
-  padding-top: 40px;
+  padding-top: 0;
   padding-bottom: 60px;
 }
 .cid-rv01crIyHs .image-block {
@@ -1914,7 +1914,8 @@ body {
 .cid-ruYveSgKU2 {
   padding-top: 90px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/bgcrono-1950x1301.jpg");
+  /* background-image: url("../../../assets/images/bgcrono-1950x1301.jpg"); */
+  background-color: #ffffff;
 }
 .cid-ruYveSgKU2 .mbr-section-subtitle {
   color: #767676;
@@ -1922,9 +1923,12 @@ body {
   font-weight: 300;
 }
 .cid-ruYveSgKU2 .timeline-text-content {
-  padding: 2rem 2.5rem;
-  background: #9928f7;
+  /* padding: 2rem 2.5rem; */
+  background: #ffffff;
+  border-radius: 12px;
   margin-left: 2rem;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 .cid-ruYveSgKU2 .timeline-text-content p {
   margin-bottom: 0;
@@ -1934,8 +1938,20 @@ body {
 }
 .cid-ruYveSgKU2 .time-line-date-content p {
   padding: 2rem 2.5rem;
-  background: #9928f7;
+  /* background: #9928f7; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   float: right;
+}
+.cid-ruYveSgKU2 .time-line-date-content .website {
+  background-image: url("../../../assets/images/website-bg.png");
+}
+.cid-ruYveSgKU2 .time-line-date-content .sadalla {
+  background-image: url("../../../assets/images/sadalla-bg.png");
+}
+.cid-ruYveSgKU2 .time-line-date-content .tech-park {
+  background-image: url("../../../assets/images/tech-park-bg.png");
 }
 .cid-ruYveSgKU2 .timeline-element {
   margin-bottom: 50px;
@@ -2030,13 +2046,13 @@ body {
 }
 .cid-ruYveSgKU2 .mbr-timeline-title {
   text-align: left;
-  color: #ffffff;
+  color: #000000;
 }
 .cid-ruYveSgKU2 .mbr-section-title {
-  color: #ffffff;
+  color: #000000;
 }
 .cid-ruYveSgKU2 .mbr-timeline-date {
-  color: #ffffff;
+  color: #000000;
 }
 .cid-rv0cvzjJTj {
   padding-top: 75px;

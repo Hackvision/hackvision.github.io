@@ -254,6 +254,7 @@
 }
 .mobi-mbri-map-pin:before {
   content: "\e94c";
+  color: #9928f7;
 }
 .mobi-mbri-menu:before {
   content: "\e94d";

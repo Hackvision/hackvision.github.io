@@ -524,6 +524,10 @@ input[type="range"] {
 	left: -2400px;
 }
 
+
+
+
+
 /* Custom classes */
 
 .event-date {
@@ -634,4 +638,74 @@ input[type="range"] {
   .locale-title{
     margin-bottom: 20px;
   }
+}
+
+.second-section-display{
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.6rem;
+}
+
+.link-text{
+  color: #9a0afb;
+  text-decoration: underline;
+}
+
+.link-text-crono{
+  color: #d79ffc;
+  text-decoration: underline;
+}
+
+.box-border{
+  border: 1px solid rgba(154, 10, 251, 0.1);
+  padding: 20px 40px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.date-wrapper{
+  padding: 15px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.day-name{
+  opacity: 0.4;
+  color: #000000;
+  font-family: "Gotham-Bold";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.day-num{
+  color: #000000;
+  font-family: "Gotham-Bold";
+  font-size: 32px;
+  font-weight: 700;
+}
+.month-name{
+  opacity: 0.4;
+  color: #000000;
+  font-family: "Gotham-Bold";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.day-event-wrapper{
+  padding: 30px;
+  width: 80%;
+  background-image: linear-gradient(to right, #62adc7 0%, #9a0afb 100%);
+}
+.event-item{
+  color: #ffffff;
+  font-family: 'Inconsolata', monospace;
+  font-size: 16px;
+  font-weight: 700;
+}
+.event-list{
+  margin-bottom: 0;
+}
+.highlight-text{
+  font-size: 32px;
+  margin-bottom: 0;
 }
