@@ -2966,7 +2966,10 @@ body {
   -webkit-flex-grow: 0;
   flex-grow: 0;
   padding: 2.4rem 2.4rem 0 2.4rem;
+  position: relative;
 }
+
+
 .cid-rz3CBQfPCp .mbr-testimonial .card-block .testimonial-photo {
   display: inline-block;
   width: 150px;

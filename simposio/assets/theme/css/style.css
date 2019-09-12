@@ -899,6 +899,8 @@ input[type="range"] {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 0;
+  padding-right: 50px;
+  width: 70%;
 }
 .day-crono-hour{
   font-family: 'Montserrat', sans-serif;
@@ -937,6 +939,21 @@ input[type="range"] {
 .silver-logo{
   max-height: 80px;
 }
+
+.screen {
+  z-index: 2;
+  position: absolute;
+  bottom: 10%;
+  left: 20%;
+}
+
+.flag {
+  z-index: 2;
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+}
+
 @media (max-width: 767px){
   .first-section{
     padding-top: 100px;
@@ -1054,4 +1071,5 @@ input[type="range"] {
   .diamond-imgs img{
     max-height: 80px;
   }
+
 }
