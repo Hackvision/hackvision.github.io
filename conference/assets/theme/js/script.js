@@ -153,9 +153,6 @@
                 $(this)[method]('mbr-navbar--stuck')
                     .not('.mbr-navbar--open')[method]('mbr-navbar--short');
             });
-            // if ($(window).scrollTop() > 10) {
-            //     $('.menu-items').css({ 'color': 'white' })
-            // }
         });
 
         if ($.isMobile() && navigator.userAgent.match(/Chrome/i)) { // simple fix for Chrome's scrolling
@@ -692,6 +689,19 @@
             });
         }
     }
+
+    $(document).ready(function() {
+        if ($.isMobile()) {
+            $("#menuLogo").addClass("hidden");
+            $(window).scroll(function() {
+                if ($(window).scrollTop() >= $("#talkers").offset().top - 700) {
+                    $("#menuLogo").removeClass("hidden")
+                } else {
+                    $("#menuLogo").addClass("hidden");
+                }
+            });
+        }
+    });
 
     // Scroll to Top Button
     $(document).ready(function() {

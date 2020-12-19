@@ -1131,6 +1131,15 @@ input[type="range"] {
   right: 2.4rem;
 }
 
+.menu-logo {
+  opacity: 1;
+  transition: all .3s;
+}
+
+.menu-logo.hidden {
+  opacity: 0;
+}
+
 @media (max-width: 767px){
   .day-crono-title {
     padding-right: 25px;
